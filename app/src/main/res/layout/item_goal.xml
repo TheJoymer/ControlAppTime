@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="14dp"
+    android:background="?android:attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/goalAppName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Название приложения"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/goalInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Лимит: 60 мин | Использовано: 45 мин"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/goalStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="✅ Норма"
+        android:layout_marginTop="2dp"
+        android:textStyle="bold" />
+</LinearLayout>

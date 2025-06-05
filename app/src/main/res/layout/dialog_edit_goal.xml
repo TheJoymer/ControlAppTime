@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/editGoalAppName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Приложение"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Новый лимит (в минутах):"
+        android:layout_marginTop="12dp" />
+
+    <EditText
+        android:id="@+id/editGoalLimit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="например, 90"
+        android:inputType="number" />
+</LinearLayout>

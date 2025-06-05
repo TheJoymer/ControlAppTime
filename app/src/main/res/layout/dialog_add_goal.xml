@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Выберите приложение:" />
+
+    <Spinner
+        android:id="@+id/spinnerApps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Лимит (в минутах):"
+        android:layout_marginTop="12dp" />
+
+    <EditText
+        android:id="@+id/inputLimit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="например, 60"
+        android:inputType="number" />
+</LinearLayout>
