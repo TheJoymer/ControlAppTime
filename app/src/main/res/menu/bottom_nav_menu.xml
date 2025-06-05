@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_profile" android:title="Профиль" android:icon="@android:drawable/ic_menu_myplaces"/>
+    <item android:id="@+id/nav_usage" android:title="Приложения" android:icon="@android:drawable/ic_menu_manage"/>
+    <item android:id="@+id/nav_stats" android:title="Статистика" android:icon="@android:drawable/ic_menu_sort_by_size"/>
+    <item android:id="@+id/nav_goals" android:title="Цели" android:icon="@android:drawable/ic_menu_set_as"/>
+</menu>
